@@ -191,7 +191,8 @@ use yii\helpers\Html;
 
                                                         <!-- START: CONTENT -->
                                                         <?= Yii::t('UserModule.views_mails_UserInviteSpace', 'invited you to join {name}.', ['name' => '<strong>' . Html::encode(Yii::$app->name) . '</strong>']); ?><br />
-                                                        <?= Yii::t('UserModule.views_mails_UserInviteSpace', 'Register now and participate!'); ?><br/>
+                                                        <?= Yii::t('UserModule.views_mails_UserInviteSpace', '{name} is a networking platform for medical professionals; Doctors, Pharmacists, Nurses, Dentists, Laboratory specialists and Medical assistants.', ['name' => '<strong>' . Html::encode(Yii::$app->name) . '</strong>']); ?><br/><br/>
+                                                        <?= Yii::t('UserModule.views_mails_UserInviteSpace', 'Join and be a part of a wonderful new world on 360MedNet!'); ?><br/>
                                                         &nbsp;
                                                         <!-- END: CONTENT -->
                                                     </td>

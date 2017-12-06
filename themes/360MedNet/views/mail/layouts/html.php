@@ -694,7 +694,9 @@ use yii\helpers\Html;
                                                                     <?php endif; ?>
 
                                                                     <span style="text-decoration: none; color:<?= $soft2Color ?>;">
-                                                                        Powered by <a href="http://www.humhub.org"  style="text-decoration: none; color: <?= $soft2Color ?>;">HumHub</a> 
+                                                                        <br/><a href="http://www.360mednet.com"  style="text-decoration: none; color: <?= $soft2Color ?>;">360MedNet</a>
+                                                                        <br/>1390,​ Nabunya​ Road​
+                                                                        <br/>Kampala,​ Uganda​
                                                                     </span>
 
                                                                 </td>

@@ -7,4 +7,4 @@
 <?= Yii::t('base', 'Unsubscribe') ?>: <?= $url ?>
 <?php endif; ?>
 
-Powered by HumHub (http://www.humhub.org)
+360MedNet (http://www.360mednet.com)

@@ -836,3 +836,150 @@ $_SERVER = [
     ]
     'argc' => 1
 ]
+2017-12-06 22:28:16 [127.0.0.1][1][290c63356f7a50a7b9182aceb96f2ce0][error][yii\web\HttpException:401] exception 'yii\web\HttpException' with message 'Your are already logged in! - Logout first!' in /Applications/MAMP/htdocs/360mednet/protected/humhub/modules/user/controllers/RegistrationController.php:39
+Stack trace:
+#0 /Applications/MAMP/htdocs/360mednet/protected/vendor/yiisoft/yii2/base/Controller.php(154): humhub\modules\user\controllers\RegistrationController->beforeAction(Object(yii\base\InlineAction))
+#1 /Applications/MAMP/htdocs/360mednet/protected/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#2 /Applications/MAMP/htdocs/360mednet/protected/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/registrati...', Array)
+#3 /Applications/MAMP/htdocs/360mednet/protected/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#4 /Applications/MAMP/htdocs/360mednet/index.php(25): yii\base\Application->run()
+#5 {main}
+2017-12-06 22:28:14 [127.0.0.1][1][290c63356f7a50a7b9182aceb96f2ce0][info][application] $_GET = [
+    'r' => 'user/registration'
+    'token' => 'Yl4sqL9fPRs0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pm_getting-started-panel=expanded; pm_space-members-panel=expanded; pm_groups-statistics-panel=expanded; Pycharm-3eb1b568=864c8382-42c4-4bd3-9498-3c9e72a833c1; PHPSESSID=290c63356f7a50a7b9182aceb96f2ce0; _csrf=84654809e17b4de80a833e00c38ee32110b14c71973bac6e92816f248196a812a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%EA%5Dr%7F%15%954A%A1%3B%04%F0c%DDt%B78%A0%08%3A%8D%23%C5%5EW%D1%0D%A9%0F%A9B%29%22%3B%7D; _identity=fe35a109ad726de9b8195bf4252e04d34b622f1ed6da7421f5b51d4af1b8a626a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ba2581a6-1387-4424-84a7-66307b48b91f%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zh DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/360mednet/index.php'
+    'REMOTE_PORT' => '61311'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Fregistration&token=Yl4sqL9fPRs0'
+    'REQUEST_URI' => '/360mednet/index.php?r=user%2Fregistration&token=Yl4sqL9fPRs0'
+    'SCRIPT_NAME' => '/360mednet/index.php'
+    'PHP_SELF' => '/360mednet/index.php'
+    'REQUEST_TIME_FLOAT' => 1512588494.67
+    'REQUEST_TIME' => 1512588494
+    'argv' => [
+        0 => 'r=user%2Fregistration&token=Yl4sqL9fPRs0'
+    ]
+    'argc' => 1
+]
+2017-12-06 22:59:39 [127.0.0.1][1][b1a95b2f3e12134be1937bd9adbfd8f5][error][yii\web\HttpException:401] exception 'yii\web\HttpException' with message 'Your are already logged in! - Logout first!' in /Applications/MAMP/htdocs/360mednet/protected/humhub/modules/user/controllers/RegistrationController.php:39
+Stack trace:
+#0 /Applications/MAMP/htdocs/360mednet/protected/vendor/yiisoft/yii2/base/Controller.php(154): humhub\modules\user\controllers\RegistrationController->beforeAction(Object(yii\base\InlineAction))
+#1 /Applications/MAMP/htdocs/360mednet/protected/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#2 /Applications/MAMP/htdocs/360mednet/protected/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('user/registrati...', Array)
+#3 /Applications/MAMP/htdocs/360mednet/protected/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#4 /Applications/MAMP/htdocs/360mednet/index.php(25): yii\base\Application->run()
+#5 {main}
+2017-12-06 22:59:38 [127.0.0.1][1][b1a95b2f3e12134be1937bd9adbfd8f5][info][application] $_GET = [
+    'r' => 'user/registration'
+    'token' => 'Yl4sqL9fPRs0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pm_getting-started-panel=expanded; pm_space-members-panel=expanded; pm_groups-statistics-panel=expanded; Pycharm-3eb1b568=864c8382-42c4-4bd3-9498-3c9e72a833c1; PHPSESSID=b1a95b2f3e12134be1937bd9adbfd8f5; _csrf=84654809e17b4de80a833e00c38ee32110b14c71973bac6e92816f248196a812a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%EA%5Dr%7F%15%954A%A1%3B%04%F0c%DDt%B78%A0%08%3A%8D%23%C5%5EW%D1%0D%A9%0F%A9B%29%22%3B%7D; _identity=fe35a109ad726de9b8195bf4252e04d34b622f1ed6da7421f5b51d4af1b8a626a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B1%2C%22ba2581a6-1387-4424-84a7-66307b48b91f%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zh DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/360mednet/index.php'
+    'REMOTE_PORT' => '62177'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Fregistration&token=Yl4sqL9fPRs0'
+    'REQUEST_URI' => '/360mednet/index.php?r=user%2Fregistration&token=Yl4sqL9fPRs0'
+    'SCRIPT_NAME' => '/360mednet/index.php'
+    'PHP_SELF' => '/360mednet/index.php'
+    'REQUEST_TIME_FLOAT' => 1512590378.84
+    'REQUEST_TIME' => 1512590378
+    'argv' => [
+        0 => 'r=user%2Fregistration&token=Yl4sqL9fPRs0'
+    ]
+    'argc' => 1
+]
+2017-12-06 23:10:23 [127.0.0.1][-][e4d7efedb1cc290ba33b1567da138669][error][yii\web\HttpException:403] exception 'yii\web\HttpException' with message 'You are not permitted to access this section.' in /Applications/MAMP/htdocs/360mednet/protected/humhub/components/behaviors/AccessControl.php:207
+Stack trace:
+#0 /Applications/MAMP/htdocs/360mednet/protected/humhub/components/behaviors/AccessControl.php(148): humhub\components\behaviors\AccessControl->forbidden()
+#1 /Applications/MAMP/htdocs/360mednet/protected/vendor/yiisoft/yii2/base/ActionFilter.php(75): humhub\components\behaviors\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /Applications/MAMP/htdocs/360mednet/protected/vendor/yiisoft/yii2/base/Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /Applications/MAMP/htdocs/360mednet/protected/vendor/yiisoft/yii2/base/Controller.php(272): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /Applications/MAMP/htdocs/360mednet/protected/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 /Applications/MAMP/htdocs/360mednet/protected/humhub/components/Controller.php(190): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /Applications/MAMP/htdocs/360mednet/protected/vendor/yiisoft/yii2/base/Controller.php(154): humhub\components\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /Applications/MAMP/htdocs/360mednet/protected/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#9 /Applications/MAMP/htdocs/360mednet/protected/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/user', Array)
+#10 /Applications/MAMP/htdocs/360mednet/protected/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(humhub\components\Request))
+#11 /Applications/MAMP/htdocs/360mednet/index.php(25): yii\base\Application->run()
+#12 {main}
+2017-12-06 23:10:23 [127.0.0.1][-][e4d7efedb1cc290ba33b1567da138669][info][application] $_GET = [
+    'r' => 'admin/user'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pm_getting-started-panel=expanded; pm_space-members-panel=expanded; pm_groups-statistics-panel=expanded; Pycharm-3eb1b568=864c8382-42c4-4bd3-9498-3c9e72a833c1; PHPSESSID=e4d7efedb1cc290ba33b1567da138669; _csrf=84654809e17b4de80a833e00c38ee32110b14c71973bac6e92816f248196a812a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%EA%5Dr%7F%15%954A%A1%3B%04%F0c%DDt%B78%A0%08%3A%8D%23%C5%5EW%D1%0D%A9%0F%A9B%29%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zh DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/360mednet/index.php'
+    'REMOTE_PORT' => '62252'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fuser'
+    'REQUEST_URI' => '/360mednet/index.php?r=admin%2Fuser'
+    'SCRIPT_NAME' => '/360mednet/index.php'
+    'PHP_SELF' => '/360mednet/index.php'
+    'REQUEST_TIME_FLOAT' => 1512591023.04
+    'REQUEST_TIME' => 1512591023
+    'argv' => [
+        0 => 'r=admin%2Fuser'
+    ]
+    'argc' => 1
+]

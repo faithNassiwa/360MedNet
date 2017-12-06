@@ -67,7 +67,7 @@
         'installer_database' => '360mednet',
       ),
     ),
-    'config_created_at' => 1512571073,
+    'config_created_at' => 1512591058,
     'horImageScrollOnMobile' => '1',
     'databaseInstalled' => true,
     'installed' => true,
