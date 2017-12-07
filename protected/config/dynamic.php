@@ -27,8 +27,8 @@
       array (
         'theme' => 
         array (
-          'name' => '360MedNet',
-          'basePath' => '/Applications/MAMP/htdocs/360mednet/themes/360MedNet',
+          'name' => 'HumHub',
+          'basePath' => '/Applications/MAMP/htdocs/360mednet/themes/HumHub',
           'publishResources' => false,
         ),
       ),
@@ -42,8 +42,8 @@
     array (
       'theme' => 
       array (
-        'name' => '360MedNet',
-        'basePath' => '/Applications/MAMP/htdocs/360mednet/themes/360MedNet',
+        'name' => 'HumHub',
+        'basePath' => '/Applications/MAMP/htdocs/360mednet/themes/HumHub',
         'publishResources' => false,
       ),
     ),
@@ -67,7 +67,7 @@
         'installer_database' => '360mednet',
       ),
     ),
-    'config_created_at' => 1512591058,
+    'config_created_at' => 1512636233,
     'horImageScrollOnMobile' => '1',
     'databaseInstalled' => true,
     'installed' => true,
